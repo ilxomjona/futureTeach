@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+	@apply max-w-[1646px] w-full mx-auto px-5;
+}
+
+.custom-li:not(:last-child) {
+	@apply mr-5;
+}
